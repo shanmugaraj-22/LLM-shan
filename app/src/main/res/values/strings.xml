@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LLM APP</string>
+    <string name="settings">Settings</string>
+    <string name="theme_label">Dark Theme</string>
+    <string name="email_label">Email</string>
+    <string name="sample_email">sample@gmail.com</string>
+    <string name="model_label">Model</string>
+    <string name="upgrade_label">Upgrade</string>
+    <string name="view_button">Change</string>
+    <string name="save_button">Update</string>
+    <string name="about_label">About</string>
+    <string-array name="model_options">
+        <item>Open AI</item>
+        <item>Llama3</item>
+        <item>Mistral</item>
+        <item>WorkiyLegal</item>
+    </string-array>
+</resources>

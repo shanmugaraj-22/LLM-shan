@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Width for the model dropdown popup to be smaller than full width -->
+    <dimen name="model_dropdown_width">120dp</dimen>
+    <!-- Vertical offset for dropdown menu (set to 0 so popup sits flush under the input) -->
+    <dimen name="model_dropdown_vertical_offset">0dp</dimen>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dark mode: subtle light overlay when pressed/activated -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!-- semi-transparent white overlay -->
+            <solid android:color="#22FFFFFF" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <item android:state_activated="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#22FFFFFF" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <!-- Theme-aware tint for settings icon: black in light theme by default -->
+    <color name="ic_settings_tint">#808080</color>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorSurface"
+    android:elevation="4dp">
+
+    <!-- Header with title and new chat button -->
+    <include
+        android:id="@+id/headerLayout"
+        layout="@layout/drawer_chat_history_header" />
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorOnSurface"
+        android:alpha="0.12" />
+
+    <!-- Empty state when no chats -->
+    <TextView
+        android:id="@+id/textViewEmptyHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No chat history yet.\nStart a new conversation!"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="?android:attr/textColorSecondary"
+        android:padding="32dp"
+        android:visibility="gone" />
+
+    <!-- Chat history list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewChatHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="8dp" />
+
+</LinearLayout>
+
